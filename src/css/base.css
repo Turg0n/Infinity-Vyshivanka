@@ -5,6 +5,28 @@
     margin-right: auto;
     margin-left: auto;
 }
+body {
+    font-family: 'Manrope', sans-serif;
+    color: #FCF9F9;
+    background-color: #1C2225;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
 @media screen and (min-width: 768px) {
     .container {
         padding-right: 32px;
