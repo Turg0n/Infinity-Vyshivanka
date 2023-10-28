@@ -1,0 +1,147 @@
+.section-about-us {
+    padding: 80px 0;
+    position: relative;
+    display: flex;
+        flex-direction: column;
+        align-items: flex-start;                    
+}
+
+@media (min-resolution: 192dpi) {
+    .ornament-container {
+        background-image: url(../img/ornament-about-mobile@2x.png);
+    }
+}
+
+.about-container {
+    width: 375px;
+        margin-right: auto;
+        margin-left: auto;
+        position: relative;
+            z-index: 1;
+}
+
+.ornament-container {
+    display: flex;
+    justify-content: center;
+        align-items: center;
+    position: absolute;
+    bottom: 0;
+    transform: translateY(62px);
+    left: 125px;    
+    background-image: url(../img/ornament-about-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;    
+    background-position: bottom center;
+    z-index: 0;
+}
+
+.ornament {    
+    width: 459px;
+        height: 408px;
+}
+
+.about-img {
+    position: relative;
+    z-index: 1;
+}
+
+.about-first-title {
+    color: #FCF9F9;        
+        font-size: 32px;        
+        font-weight: 500;
+        line-height: 1.37;        
+        letter-spacing: -0.03em;        
+}
+
+.about-first-text {          
+    width: 335px;
+    color: rgba(252, 249, 249, 0.40);
+        font-size: 14px;
+        line-height: normal;
+        letter-spacing: -0.03em;
+        margin-bottom: 20px;
+}
+
+.about-second-text {
+    width: 335px;
+        color: rgba(252, 249, 249, 0.40);
+        font-size: 14px;
+        line-height: normal;
+        letter-spacing: -0.03em;
+        margin-bottom: 50px;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding: 0 16px;
+    }
+
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            .ornament-container {
+                background-image: url(../img/ornament-about-tablet@2x.png);
+            }
+        }
+
+    .about-container {
+            width: 768px;
+    }
+
+    .ornament-container {
+    display: flex;
+    justify-content: center;
+        align-items: center;
+    position: absolute;
+    bottom: 0;
+    transform: translateY(50px);
+    left: 399px;    
+    background-image: url(../img/ornament-about-tablet.png);
+    background-repeat: no-repeat;
+    background-size: cover;    
+    background-position: bottom center;
+    z-index: 0;
+}
+
+.ornament {    
+    width: 545px;
+        height: 484px;
+}
+
+    .about-first-title {
+            font-size: 44px;            
+            line-height: 1.45;            
+            letter-spacing: -0.03em;
+    }
+
+    .about-first-text {
+        width: 704px;
+            font-size: 16px;
+            font-style: normal;
+            letter-spacing: -0.04px;
+    }
+
+    .about-second-text {
+        width: 704px;
+            font-size: 16px;
+            font-style: normal;
+            letter-spacing: -0.04px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .container {
+        max-width: 1440px;
+        padding: 0 16px;
+    }
+}
