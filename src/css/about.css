@@ -2,12 +2,16 @@
     padding-top: 80px;
     position: relative;
     display: flex;
-        flex-direction: column;
-        align-items: flex-start;                    
+    justify-content: flex-end;
+        align-items: flex-end;
+        background-image: url(../img/ornament-about-mobile.png);
+        background-repeat: no-repeat;
+            background-size: cover;
+            background-position: bottom right;
 }
 
 @media (min-resolution: 192dpi) {
-    .ornament-container {
+    .section-about-us {
         background-image: url(../img/ornament-about-mobile@2x.png);
     }
 }
@@ -16,12 +20,12 @@
     width: 375px;
         margin-right: auto;
         margin-left: auto;
-        position: relative;
-            z-index: 1;
+        position: relative;       
+    
 }
 
-.ornament-container {
-    display: flex;
+/* .ornament-container {
+    /* display: flex;
     justify-content: center;
         align-items: center;
     position: absolute;
@@ -33,12 +37,12 @@
     background-size: cover;    
     background-position: bottom center;
     z-index: 0;
-}
+} */
 
-.ornament {    
-    width: 459px;
+/* .ornament {    
+     width: 459px;
         height: 408px;
-}
+}  */
 
 .about-img {
     position: relative;
@@ -83,13 +87,14 @@
             display: flex;
             flex-direction: column;
             align-items: flex-start;
+            background-image: url(../img/ornament-about-mobile.png);
             
         }
 
         @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
-            .ornament-container {
+            .section-about-us {
                 background-image: url(../img/ornament-about-tablet@2x.png);
             }
         }
@@ -100,7 +105,7 @@
                 margin-left: 0;
     }
 
-    .ornament-container {
+    /* .ornament-container {
     display: flex;
     justify-content: center;
         align-items: center;
@@ -118,7 +123,7 @@
 .ornament {    
     width: 545px;
         height: 484px;
-}
+} */
 
     .about-first-title {
             font-size: 44px;            
@@ -139,24 +144,28 @@
             font-style: normal;
             letter-spacing: -0.04px;
     }
+
+        .about-picture {
+            width: 704px;
+            height: 545px;    
+        }
 }
 
 @media screen and (min-width: 1280px) {
     .container {
-        max-width: 1280px;
-        
+        max-width: 1280px;        
     }
         .section-about-us {                       
                        
         }
 
-        @media (min-device-pixel-ratio: 2),
+        /* @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
-            .ornament-container {                
+            .section-about-us {                
                     background-image: url(../src/img/ornament-about-desktop@2x.png);
             }
-        }
+        } */
 
         .about-container {
             width: 1280px;
@@ -164,7 +173,7 @@
                 margin-left: 0;                
     }
 
-        .ornament-container {
+        /* .ornament-container {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -182,7 +191,7 @@
         .ornament {
             width: 545px;
             height: 484px;
-        }
+        } */
     
         .about-first-title {
             
