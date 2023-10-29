@@ -3,6 +3,8 @@
     flex-direction: column;
     align-items: left;
     margin-top: 60px;
+    max-width: 100%;
+    flex-wrap: wrap;
 }
 
 .hero-title {
@@ -11,9 +13,80 @@
     line-height: 1.23;
     letter-spacing: -0.03em;
     text-align: left;
+    align-content: center;
     color: #FCF9F9;
+    max-width: 335px;
 }
 
 .hero-title-span {
     color: #ECD979;
+}
+
+.hero-button-icon {
+    margin: 20px 130.48px 40px 90px;
+}
+
+.hero-button {
+    color: #FCF9F9;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.37;
+    letter-spacing: 0.04em;
+    background-color: black;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: #FCF9F9;
+    width: 154.52px;
+    height: 49px;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    border-color: #ECD979;
+}
+
+.button-icon {
+    margin-left: 10px;
+}
+
+.nomo
+
+/* ============TABLET ============= */
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+
+    .hero-container {
+        padding-top: 106px;
+    }
+
+    .hero {
+        padding-top: 80px;
+    }
+
+    .hero-title {
+        max-width: 549px;
+    }
+
+    .hero-button-icon {
+        margin-left: 141px;
+        margin-right: 395px;
+    }
+
+    .hero-star {
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .hero-star:hover,
+    .hero-star:focus {
+        fill: #FCF9F9;
+    }
+
+
 }
