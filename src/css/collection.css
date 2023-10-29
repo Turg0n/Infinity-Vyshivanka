@@ -1,0 +1,108 @@
+
+
+.name-section-collection {
+    margin-bottom: 40px;
+    color: var(--white, #FCF9F9);
+    font-family: Manrope;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.45;
+    letter-spacing: -1.32px;
+    justify-content: center;
+    display: flex;
+    padding-top: 70px;
+}
+
+.list-collections {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-bottom: 130px;
+   
+}
+
+.colection-elem {
+    width: 400px;
+}
+
+.vyshivanka-foto {
+    position: absolute;
+    background-position: bottom; 
+    padding-top: 360px;
+}
+
+.vyshivanka-item {
+    border-bottom: solid lightgray 50%;
+    border-radius: 4px;
+    margin-bottom: 18px;
+}
+
+.item-name {
+margin-bottom: 8px;
+font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1;
+    /* 100% */
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+}
+
+.price-item {
+    padding-bottom: 20px;
+}
+
+@media screen and (min-width: 320px) {
+    .section-collection {
+        max-width: 375px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+.vyshivanka-foto {
+            padding-top: 360px;
+    }
+
+.item-name {
+         font-size: 14px;
+        letter-spacing: 0.7px;      
+    }
+}
+    /* tablet  */
+ @media screen and (min-width: 768px) and (max-width: 1280px) {
+
+.vyshivanka-foto {
+            padding-top: 300px;
+        }
+
+.section-collection {
+        max-width: 768px;
+ } 
+
+ .colection-elem {
+     width: 342px;
+}
+ }
+
+@media screen and (min-width: 1280px) {
+.container-collection {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .vyshivanka-foto {
+            padding-top: 240px;
+        }
+
+    .colection-elem {
+            width: 342px;
+        }
+    
+.section-collection {
+       
+        max-width: 1440px;
+       
+    }
+}
