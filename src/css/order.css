@@ -11,10 +11,13 @@
 }
 
 .order .container {
-  max-width: 375px;
 }
 
 .order-form-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .order-pic {
@@ -125,14 +128,12 @@
     margin-left: auto;
   }
 
-  .order .container {
-    max-width: 768px;
-    padding-left: 32px;
-    padding-right: 32px;
+  .container {
   }
 
   .order-form-wrapper {
     margin-bottom: 100px;
+    align-items: flex-start;
   }
 
   .order-title {
@@ -188,9 +189,7 @@
     .order {
       background-image: url(../img/girl2-t@2x.jpg);
     }
-  }
 
-  @media (min-resolution: 192dpi) {
     .order-background-container {
       background-image: url(../img/ornament-order-tablet@2x.png);
     }
@@ -218,12 +217,10 @@
   }
 
   .order .container {
-    max-width: 1280px;
     padding-left: 64px;
-    padding-right: 100px;
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-between;
+    gap: 50px;
   }
 
   .order-form-wrapper {
@@ -245,9 +242,7 @@
     .order {
       background-image: url(../img/girl-d1@2x.jpg);
     }
-  }
 
-  @media (min-resolution: 192dpi) {
     .order-background-container {
       background-image: url(../img/ornament-order-desktop@2x.png);
     }
