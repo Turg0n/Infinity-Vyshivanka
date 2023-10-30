@@ -84,7 +84,7 @@
 .mobile-header-div {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 187px;
+  padding-bottom: 186px;
 }
 
 .header-mobile-menu {
@@ -134,7 +134,6 @@
 
 .mobile-header-address-border {
   display: flex;
-  /* padding: 12px 20px; */
   justify-content: center;
   align-items: center;
   border-radius: 15px;
@@ -191,7 +190,7 @@
   }
 
   .mobile-header-div {
-    padding-bottom: 227px;
+    padding-bottom: 223px;
   }
 
   .mobile-menu-close {
