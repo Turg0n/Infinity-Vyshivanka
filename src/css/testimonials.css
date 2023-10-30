@@ -121,4 +121,12 @@
   .natalia {
     display: flex;
   }
+
+  .testimonials-text {
+    width: 307px;
+  }
+
+  .natalia-text {
+    width: 306px;
+  }
 }
