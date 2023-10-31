@@ -19,11 +19,8 @@
     flex-wrap: wrap;
     gap: 20px;
     padding-bottom: 130px;
-   
-}
 
-.colection-elem {
-    width: 400px;
+    justify-content: center;
 }
 
 .vyshivanka-foto {
@@ -54,13 +51,35 @@ font-family: Manrope;
     padding-bottom: 20px;
 }
 
+
+
+/* mobile */
 @media screen and (min-width: 320px) {
+    .poiters {
+        display: none;
+    }
+
+    .price-item {
+        color: rgba(252, 249, 249, 0.40);
+            font-family: Manrope;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 1;
+            /* 100% */
+            letter-spacing: 0.7px;
+    }
+
+    .colection-elem {
+            width: 335px;
+        } 
     .container-collection {
             background-image: url(/img/elements-mob.jpg);
             background-repeat: no-repeat;
             /* background-size: cover right; */
             background-size: 70px;
             background-position: left top 10%;
+            /* width: 375px; */
         }
     .section-collection {
         max-width: 375px;
@@ -80,6 +99,22 @@ font-family: Manrope;
     /* tablet  */
  @media screen and (min-width: 768px) and (max-width: 1280px) {
 
+    .letters {
+            display: none;
+        }
+    .poiters {
+        display: contents;
+    }
+
+    .price-item {
+            font-size: 18px;
+            letter-spacing: 0.9px;
+        }
+
+    .colection-elem {
+        width: 342px;
+    } 
+
     .container-collection {
             background-image: url(/img/element-tab.png);
             background-repeat: no-repeat;
@@ -94,14 +129,30 @@ font-family: Manrope;
 
 .section-collection {
         max-width: 768px;
- } 
-
- .colection-elem {
-     width: 342px;
-}
+    } 
  }
 
+ /* desktop 1 */
 @media screen and (min-width: 1280px) {
+    .letters {
+            display: none;
+        }
+    
+        .poiters {
+            display: contents;
+        }
+
+    .item-name {
+
+    }
+    .price-item {
+            font-size: 18px;
+            letter-spacing: 0.9px;
+        }
+
+    .list-collections {
+        gap: 40px 20px;
+    }
 
     .container-collection {
         background-image: url(/img/elements.png);
@@ -118,15 +169,35 @@ font-family: Manrope;
         }
 
     .colection-elem {
-            width: 342px;
+            width: 347px;
         }
-    
+     
 .section-collection {
        
         max-width: 1440px;
        
     }
 }
+
+/* desktop 2 */
+ @media screen and (min-width: 1440px) {
+.letters {
+        display: contents;
+    }
+
+    .poiters {
+        display: none;
+    }
+    .price-item {
+            font-size: 18px;
+            letter-spacing: 0.9px;
+        }
+
+.colection-elem {
+    width: 400px;
+} 
+ }
+/* the end desktop2 */
 
 
 @media screen and (min-width: 1280px) {
