@@ -73,14 +73,20 @@ font-family: Manrope;
     .colection-elem {
             width: 335px;
         } 
-    .container-collection {
-            background-image: url(/img/elements-mob.jpg);
+
+    .fon {
+            background-image: url(/img/elements-mob.png);
             background-repeat: no-repeat;
             /* background-size: cover right; */
             background-size: 70px;
             background-position: left top 10%;
             /* width: 375px; */
+            background-color: blue;
+            border: solid 3px yellow;
+            height: 300px;
         }
+
+
     .section-collection {
         max-width: 375px;
         margin-left: auto;
@@ -115,12 +121,13 @@ font-family: Manrope;
         width: 342px;
     } 
 
-    .container-collection {
+    .fon {
             background-image: url(/img/element-tab.png);
             background-repeat: no-repeat;
             background-size: cover right;
             background-size: 98px;
             background-position: left top 20%;
+            background-color: blueviolet;
     }
 
 .vyshivanka-foto {
@@ -154,7 +161,11 @@ font-family: Manrope;
         gap: 40px 20px;
     }
 
-    .container-collection {
+    .fon {
+         padding: 0;
+         border: solid 3px red;
+         background-color: aquamarine;
+
         background-image: url(/img/elements.png);
         background-repeat: no-repeat;
             background-size: cover right;
@@ -202,27 +213,24 @@ font-family: Manrope;
 
 @media screen and (min-width: 1280px) {
     @media (min-resolution: 192dpi) {
-        .container-collection {
-            background-image: url(/img/elements@2x.png);
-           
+        .fon {
+            background-image: url(/img/elements@2x.png);  
         }
     }
 }
 
 @media screen and (min-width: 768px) {
     @media (min-resolution: 192dpi) {
-        .container-collection {
-            background-image: url(/img/elements-tab@2x.png);
-
+        .fon {
+            background-image: url(/img/elements-tab@2x.png)
         }
     }
 }
 
 @media screen and (min-width: 320px) {
     @media (min-resolution: 192dpi) {
-        .container-collection {
-            background-image: url(/img/elements-mob@2x.jpg);
-
+        .fon {
+            background-image: url(/img/elements-mob@2x.png);
         }
     }
 }
