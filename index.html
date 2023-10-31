@@ -10,8 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
     <title>Vyshyvanka Vibes</title>
     
-    <script type="module" crossorigin src="/Infinity-Vyshivanka/assets/index-c5c5ebb4.js"></script>
-    <link rel="stylesheet" href="/Infinity-Vyshivanka/assets/index-b0566160.css">
+    <script type="module" crossorigin src="/Infinity-Vyshivanka/assets/index-8cf84c7a.js"></script>
+    <link rel="stylesheet" href="/Infinity-Vyshivanka/assets/index-7e034bac.css">
   </head>
   <body>
     
@@ -37,6 +37,9 @@
             type="text"
             id="user-name"
             placeholder="Enter your full name"
+            pattern="[A-Za-z0-9]{6,}"
+            title="Логін не может бути меншим за 6 латинських символів."
+            required
           />
           <label class="order-label" for="user-email"></label
           ><input
@@ -45,6 +48,8 @@
             type="email"
             id="user-email"
             placeholder="Enter your email"
+            pattern="^.+@.+\..+$"
+            required
           />
           <label class="order-label" for="user-text"></label>
           <textarea
@@ -58,15 +63,15 @@
       </div>
       <picture class="order-pic">
         <source
-          srcset="../img/vyshyvanka.jpg 1x, ../img/vyshyvanka@2x.jpg 2x"
+          srcset="/Infinity-Vyshivanka/assets/vyshyvanka-7239e369.jpg 1x, /Infinity-Vyshivanka/assets/vyshyvanka@2x-eeca6911.jpg 2x"
           media="(min-width: 1280px)"
         />
         <source
-          srcset="../img/vyshyvanka-t.jpg 1x, ../img/vyshyvanka-t@2x.jpg 2x"
+          srcset="/Infinity-Vyshivanka/assets/vyshyvanka-t-12f534fc.jpg 1x, /Infinity-Vyshivanka/assets/vyshyvanka-t@2x-f9c2d13f.jpg 2x"
           media="(min-width: 768px)"
         />
         <img
-          src="../img/vyshyvanka.jpg"
+          src="/Infinity-Vyshivanka/assets/vyshyvanka-7239e369.jpg"
           alt="Girl in vyshyvanka"
           width="638"
           height="521"
@@ -85,16 +90,18 @@
       <nav class="footer-nav">
         <ul class="footer-list">
           <li class="footer-item">
-            <a class="footer-item-link" href="">About us</a>
+            <a class="footer-item-link" href="#about-us">About us</a>
           </li>
           <li class="footer-item">
-            <a class="footer-item-link" href="">CUSTOMER ORDER</a>
+            <a class="footer-item-link" href="#your-order">CUSTOMER ORDER</a>
           </li>
           <li class="footer-item">
-            <a class="footer-item-link" href="">Our collection</a>
+            <a class="footer-item-link" href="#our-collection"
+              >Our collection</a
+            >
           </li>
           <li class="footer-item">
-            <a class="footer-item-link" href="">TEstimonials</a>
+            <a class="footer-item-link" href="#testimonials">TEstimonials</a>
           </li>
         </ul>
       </nav>
