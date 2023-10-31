@@ -74,7 +74,6 @@ font-family: Manrope;
             background-image: url(/img/elements-mob.png);
             background-repeat: no-repeat;
             background-size: 70px;
-           
         }
 
 
@@ -110,10 +109,6 @@ font-family: Manrope;
             font-size: 18px;
             letter-spacing: 0.02em;
         }
-
-    .colection-elem {
-        width: 342px;
-    } 
 
     .fon {
         width: 32px;
@@ -177,9 +172,6 @@ margin-top: 280px;
             padding-top: 240px;
         }
 
-    .colection-elem {
-            width: 347px;
-        }
      
 .section-collection {
        
@@ -221,9 +213,7 @@ margin-top: 280px;
             letter-spacing: 0.9px;
         }
 
-.colection-elem {
-    width: 400px;
-} 
+
  }
 /* the end desktop2 */
 
