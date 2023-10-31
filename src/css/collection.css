@@ -2,13 +2,13 @@
 
 .name-section-collection {
     margin-bottom: 40px;
-    color: var(--white, #FCF9F9);
+    color: #FCF9F9;
     font-family: Manrope;
     font-size: 44px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.45;
-    letter-spacing: -1.32px;
+    letter-spacing: -0.03em;
     justify-content: center;
     display: flex;
     padding-top: 70px;
@@ -39,18 +39,11 @@
 margin-bottom: 8px;
 font-family: Manrope;
     font-size: 18px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1;
-    /* 100% */
-    letter-spacing: 0.9px;
+    letter-spacing: 0.02em;
     text-transform: uppercase;
 }
-
-.price-item {
-    padding-bottom: 20px;
-}
-
 
 
 /* mobile */
@@ -63,11 +56,9 @@ font-family: Manrope;
         color: rgba(252, 249, 249, 0.40);
             font-family: Manrope;
             font-size: 14px;
-            font-style: normal;
             font-weight: 400;
             line-height: 1;
-            /* 100% */
-            letter-spacing: 0.7px;
+            letter-spacing: 0.02em;
     }
 
     .colection-elem {
@@ -98,8 +89,8 @@ font-family: Manrope;
     }
 
 .item-name {
-         font-size: 14px;
-        letter-spacing: 0.7px;      
+        font-size: 14px;
+        letter-spacing: 0.02em;      
     }
 }
     /* tablet  */
@@ -111,10 +102,13 @@ font-family: Manrope;
     .poiters {
         display: contents;
     }
+    .item-name {
+        font-size: 18px;      
+    }
 
     .price-item {
             font-size: 18px;
-            letter-spacing: 0.9px;
+            letter-spacing: 0.02em;
         }
 
     .colection-elem {
