@@ -75,15 +75,15 @@ font-family: Manrope;
         } 
 
     .fon {
+
+        position: absolute;
+        width: 20px;
+        height: 177px;
+        margin-top: 400px;
             background-image: url(/img/elements-mob.png);
             background-repeat: no-repeat;
-            /* background-size: cover right; */
             background-size: 70px;
-            background-position: left top 10%;
-            /* width: 375px; */
-            background-color: blue;
-            border: solid 3px yellow;
-            height: 300px;
+           
         }
 
 
@@ -103,7 +103,7 @@ font-family: Manrope;
     }
 }
     /* tablet  */
- @media screen and (min-width: 768px) and (max-width: 1280px) {
+ @media screen and (min-width: 768px) {
 
     .letters {
             display: none;
@@ -122,12 +122,14 @@ font-family: Manrope;
     } 
 
     .fon {
+        width: 32px;
+            height: 400px;
+            margin-top: 280px;
             background-image: url(/img/element-tab.png);
             background-repeat: no-repeat;
-            background-size: cover right;
-            background-size: 98px;
+            /* background-size: cover right; */
+            background-size: 110px;
             background-position: left top 20%;
-            background-color: blueviolet;
     }
 
 .vyshivanka-foto {
@@ -159,20 +161,22 @@ font-family: Manrope;
 
     .list-collections {
         gap: 40px 20px;
+        position: relative;
+        z-index: 100;
+        justify-content: left;
     }
 
     .fon {
-         padding: 0;
-         border: solid 3px red;
-         background-color: aquamarine;
-
+      
+         width: 100px; 
+         height: 300px;
+         /* position: absolute; */
+margin-top: 280px;
         background-image: url(/img/elements.png);
-        background-repeat: no-repeat;
-            background-size: cover right;
-            background-size: 100px;
-            background-position: left top 30%;
-        margin-left: auto;
-        margin-right: auto;
+        background-size: 150px; 
+            /* background-position: left top 30%; */
+            
+    
 }
 
     .vyshivanka-foto {
@@ -192,6 +196,25 @@ font-family: Manrope;
 
 /* desktop 2 */
  @media screen and (min-width: 1440px) {
+
+        .fon {
+              
+                width: 168px;
+                height: 300px;
+                /* position: absolute; */
+                /* background-position: left 0 top 291px;  */
+                /* background-position: left; */
+        
+        
+                background-image: url(/img/elements.png);
+
+                background-size: 150px;
+                /* background-position: left top 30%; */
+                background-position: bottom;
+        
+            }
+
+
 .letters {
         display: contents;
     }
