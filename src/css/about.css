@@ -7,11 +7,11 @@
 
 .about-ornament {
     padding-top: 80px;
-    width: 459px;
-    height: 408px;
+    padding-bottom: 62px;
+    max-width: 375px;    
     background-image: url(../img/ornament-about-mobile.png);
         background-repeat: no-repeat;
-        background-size: 459px 408px;
+        background-size: 250px 408px;
         background-position: right 0 bottom 0;
 }
 
@@ -68,13 +68,11 @@
 
         @media (min-width: 768px) {
             .about-ornament {
-                width: 545px;
-                height: 484px;
-
+                max-width: 768px;
                 padding-top: 100px;
                 background-image: url(../img/ornament-about-tablet.png);
                 background-repeat: no-repeat;
-                    background-size: 545px 484px;
+                    background-size: 369px 484px;
                     background-position: right 0 bottom 0;
             }
         }
@@ -136,10 +134,12 @@
 
         @media (min-width: 1280px) {
             .about-ornament {
-                width: 545px;
+                max-width: 1280px;
+                padding-top: 150px;
+                padding-bottom: 80px;
                 /* background-image: url(../src/img/ornament-about-desktop.png); */
                 background-repeat: no-repeat;
-                    background-size: 545px 484px;
+                    background-size: 385px 484px;
                     background-position: right 0 bottom 0;
             }
         }
