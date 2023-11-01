@@ -80,6 +80,7 @@
   display: flex;
   justify-content: space-between;
   padding-bottom: 186px;
+  align-items: center;
 }
 
 .header-mobile-menu {
