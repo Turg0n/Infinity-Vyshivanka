@@ -1,4 +1,7 @@
-
+.section-collection {
+    margin-right: auto;
+    margin-left: auto;
+}
 
 .name-section-collection {
     margin-bottom: 40px;
@@ -18,13 +21,11 @@
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    padding-bottom: 130px;
-
     justify-content: center;
 }
 
 .vyshivanka-foto {
-    position: absolute;
+    /* position: absolute; */
     background-position: bottom; 
     padding-top: 360px;
 }
@@ -66,19 +67,22 @@ font-family: Manrope;
         } 
 
     .fon {
-
-        position: absolute;
-        width: 20px;
-        height: 177px;
-        margin-top: 400px;
-            background-image: url(/img/elements-mob.png);
-            background-repeat: no-repeat;
-            background-size: 70px;
+        margin-right: auto;
+        margin-left: auto;
+        /* position: absolute; */
+        width: 375px; 
+        /* height: 177px; */
+        padding-top: 18px;
+        padding-bottom: 80px;
+        background-image: url(./img/elements-mob.png);
+        background-repeat: no-repeat;
+        background-position: left 0 top 335px;
+        background-size: 72px;
         }
 
 
-    .section-collection {
-        max-width: 375px;
+    .container-collection {
+        width: 375px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -99,7 +103,7 @@ font-family: Manrope;
             display: none;
         }
     .poiters {
-        display: contents;
+        display: inline;
     }
     .item-name {
         font-size: 18px;      
@@ -111,37 +115,43 @@ font-family: Manrope;
         }
 
     .fon {
-        width: 32px;
-            height: 400px;
-            margin-top: 280px;
-            background-image: url(/img/element-tab.png);
+            width: 768px;
+            /* height: 400px; */
+            padding-top: 50px;
+            padding-bottom: 100px;
+            background-image: url(./img/element-tab.png);
             background-repeat: no-repeat;
             /* background-size: cover right; */
-            background-size: 110px;
-            background-position: left top 20%;
+            background-size: 114px;
+            background-position: left 0 top 271px;
     }
-
+    .colection-elem {
+        width: calc((100% - 20px) / 2);
+    }
 .vyshivanka-foto {
             padding-top: 300px;
         }
 
-.section-collection {
-        max-width: 768px;
+.container-collection {
+        width: 768px;
     } 
  }
 
  /* desktop 1 */
 @media screen and (min-width: 1280px) {
+    .container-collection {
+        width: 1280px;
+    }
     .letters {
             display: none;
         }
     
         .poiters {
-            display: contents;
+            display: inline;
         }
 
-    .item-name {
-
+    .colection-elem {
+        width: calc((100% - 40px) /3);
     }
     .price-item {
             font-size: 18px;
@@ -150,20 +160,19 @@ font-family: Manrope;
 
     .list-collections {
         gap: 40px 20px;
-        position: relative;
-        z-index: 100;
-        justify-content: left;
+        /* position: relative; */
+        justify-content: center;
     }
 
     .fon {
-      
-         width: 100px; 
-         height: 300px;
-         /* position: absolute; */
-margin-top: 280px;
-        background-image: url(/img/elements.png);
-        background-size: 150px; 
-            /* background-position: left top 30%; */
+        width: 1280px; 
+        /* height: 300px; */
+        /* position: absolute; */
+        padding-top: 70px;
+        padding-bottom: 150px;
+        background-image: url(./img/elements.png);
+        background-size: 169px; 
+        background-position: left 0 top 291px;
             
     
 }

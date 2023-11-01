@@ -7,6 +7,7 @@
   font-size: 12px;
   align-items: center;
   justify-content: space-between;
+  padding: 4px 0px;
 }
 
 .header-soc-mobmenu {
@@ -237,7 +238,6 @@
     display: flex;
     align-items: center;
     gap: 25px;
-    margin-right: 129px;
   }
 
   .header-menu-link {
@@ -287,6 +287,7 @@
   }
   .header-address {
     display: flex;
+    margin-left: auto;
     margin-right: 20px;
   }
 
