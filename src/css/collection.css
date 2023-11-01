@@ -1,0 +1,252 @@
+.section-collection {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.name-section-collection {
+    margin-bottom: 40px;
+    color: #FCF9F9;
+    font-family: Manrope;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.45;
+    letter-spacing: -0.03em;
+    justify-content: center;
+    display: flex;
+    padding-top: 70px;
+}
+
+.list-collections {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.vyshivanka-foto {
+    /* position: absolute; */
+    background-position: bottom; 
+    padding-top: 360px;
+}
+
+.vyshivanka-item {
+    border-bottom: solid lightgray 50%;
+    border-radius: 4px;
+    margin-bottom: 18px;
+}
+
+.item-name {
+margin-bottom: 8px;
+font-family: Manrope;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+
+
+/* mobile */
+@media screen and (min-width: 320px) {
+    .poiters {
+        display: none;
+    }
+
+    .price-item {
+        color: rgba(252, 249, 249, 0.40);
+            font-family: Manrope;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 1;
+            letter-spacing: 0.02em;
+    }
+
+    .colection-elem {
+            width: 335px;
+        } 
+
+    .fon {
+        margin-right: auto;
+        margin-left: auto;
+        /* position: absolute; */
+        width: 375px; 
+        /* height: 177px; */
+        padding-top: 18px;
+        padding-bottom: 80px;
+        background-image: url(/img/elements-mob.png);
+        background-repeat: no-repeat;
+        background-position: left 0 top 335px;
+        background-size: 72px;
+        }
+
+
+    .container-collection {
+        width: 375px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+.vyshivanka-foto {
+            padding-top: 360px;
+    }
+
+.item-name {
+        font-size: 14px;
+        letter-spacing: 0.02em;      
+    }
+}
+    /* tablet  */
+ @media screen and (min-width: 768px) {
+
+    .letters {
+            display: none;
+        }
+    .poiters {
+        display: inline;
+    }
+    .item-name {
+        font-size: 18px;      
+    }
+
+    .price-item {
+            font-size: 18px;
+            letter-spacing: 0.02em;
+        }
+
+    .fon {
+            width: 768px;
+            /* height: 400px; */
+            padding-top: 50px;
+            padding-bottom: 100px;
+            background-image: url(/img/element-tab.png);
+            background-repeat: no-repeat;
+            /* background-size: cover right; */
+            background-size: 114px;
+            background-position: left 0 top 271px;
+    }
+    .colection-elem {
+        width: calc((100% - 20px) / 2);
+    }
+.vyshivanka-foto {
+            padding-top: 300px;
+        }
+
+.container-collection {
+        width: 768px;
+    } 
+ }
+
+ /* desktop 1 */
+@media screen and (min-width: 1280px) {
+    .container-collection {
+        width: 1280px;
+    }
+    .letters {
+            display: none;
+        }
+    
+        .poiters {
+            display: inline;
+        }
+
+    .colection-elem {
+        width: calc((100% - 40px) /3);
+    }
+    .price-item {
+            font-size: 18px;
+            letter-spacing: 0.9px;
+        }
+
+    .list-collections {
+        gap: 40px 20px;
+        /* position: relative; */
+        justify-content: center;
+    }
+
+    .fon {
+        width: 1280px; 
+        /* height: 300px; */
+        /* position: absolute; */
+        padding-top: 70px;
+        padding-bottom: 150px;
+        background-image: url(/img/elements.png);
+        background-size: 169px; 
+        background-position: left 0 top 291px;
+            
+    
+}
+
+    .vyshivanka-foto {
+            padding-top: 240px;
+        }
+
+     
+.section-collection {
+       
+        max-width: 1440px;
+       
+    }
+}
+
+/* desktop 2 */
+ @media screen and (min-width: 1440px) {
+
+        .fon {
+              
+                width: 168px;
+                height: 300px;
+                /* position: absolute; */
+                /* background-position: left 0 top 291px;  */
+                /* background-position: left; */
+        
+        
+                background-image: url(/img/elements.png);
+
+                background-size: 150px;
+                /* background-position: left top 30%; */
+                background-position: bottom;
+        
+            }
+
+
+.letters {
+        display: contents;
+    }
+
+    .poiters {
+        display: none;
+    }
+    .price-item {
+            font-size: 18px;
+            letter-spacing: 0.9px;
+        }
+
+
+ }
+/* the end desktop2 */
+
+
+@media screen and (min-width: 1280px) {
+    @media (min-resolution: 192dpi) {
+        .fon {
+            background-image: url(/img/elements@2x.png);  
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    @media (min-resolution: 192dpi) {
+        .fon {
+            background-image: url(/img/elements-tab@2x.png)
+        }
+    }
+}
+
+@media screen and (min-width: 320px) {
+    @media (min-resolution: 192dpi) {
+        .fon {
+            background-image: url(/img/elements-mob@2x.png);
+        }
+    }
+}
