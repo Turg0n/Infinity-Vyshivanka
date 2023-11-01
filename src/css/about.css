@@ -183,6 +183,8 @@
             width: 594px;
             height: 545px;
             margin-top: 0;
+            border-radius: 4px;
+            overflow: hidden;
         }
 }
 
