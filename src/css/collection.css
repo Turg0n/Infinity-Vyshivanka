@@ -74,7 +74,7 @@ font-family: Manrope;
         /* height: 177px; */
         padding-top: 18px;
         padding-bottom: 80px;
-        background-image: url(./img/elements-mob.png);
+        background-image: url(/img/elements-mob.png);
         background-repeat: no-repeat;
         background-position: left 0 top 335px;
         background-size: 72px;
@@ -119,7 +119,7 @@ font-family: Manrope;
             /* height: 400px; */
             padding-top: 50px;
             padding-bottom: 100px;
-            background-image: url(./img/element-tab.png);
+            background-image: url(/img/element-tab.png);
             background-repeat: no-repeat;
             /* background-size: cover right; */
             background-size: 114px;
@@ -170,7 +170,7 @@ font-family: Manrope;
         /* position: absolute; */
         padding-top: 70px;
         padding-bottom: 150px;
-        background-image: url(./img/elements.png);
+        background-image: url(/img/elements.png);
         background-size: 169px; 
         background-position: left 0 top 291px;
             
