@@ -1,3 +1,10 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+
 .hero-container {
     display: flex;
     flex-direction: column;
@@ -22,8 +29,15 @@
     color: #ECD979;
 }
 
+.hero-br-tabletonly,
+.hero-br-desktoponly {
+    display: none;
+}
+
 .hero-button-icon {
-    margin: 20px 130.48px 40px 90px;
+    margin-left: 70px;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 .hero-button {
@@ -50,7 +64,7 @@
 
 .hero-button:hover,
 .hero-button:focus {
-    border-color: #ECD979;
+    border-color: rgba(236, 217, 121, 1);
 }
 
 .button-icon {
@@ -74,13 +88,11 @@
     }
 
     .hero {
-        padding-top: 80px;
+        padding-top: 106px;
     }
 
     .hero-container {
-        display: flex;
-        flex-direction: column;
-        column-gap: 40px;
+        position: relative;
     }
 
     .hero-all {
@@ -93,9 +105,12 @@
         max-width: 549px;
     }
 
+    .hero-br-tabletonly {
+        display: inline;
+    }
+
     .hero-button-icon {
         margin-left: 141px;
-        margin-right: 395px;
         margin-top: 40px;
     }
     
@@ -110,23 +125,16 @@
     .hero-nomobile {
         display: flex;
         flex-direction: column;
-        gap: 712px;
     }
 
     .hero-star {
-        justify-content: flex-end;
-        align-items: flex-end;
         text-align: center;
-        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
-    
-    .hero-star:hover,
-    .hero-star:focus {
-        fill: #FCF9F9;
+        position: absolute;
+        top: -26px;
+        left: 589px;
     }
     
     .hero-star-text {
-        margin-top: 16px;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.37;
@@ -138,11 +146,11 @@
     }
     
     .hero-ukraine {
-        width: 157px;
-        height: 191px;
-        flex-shrink: 0;
-        align-items: flex-end;
-        justify-content: flex-end;
+        width: 139px;
+        height: 197px;
+        position: absolute;
+        left: 565px;
+        top: 823px;
     }
 }
 
@@ -153,26 +161,40 @@
         max-width: 1280px;
     }
 
-    .hero-container {
+    .hero {
         padding-top: 100px;
-        column-gap: 40px;
     }
 
     .hero-title {
         max-width: 518px;
+        position: absolute;
+        left: 532px;
+        top: 94px;
+    }
+
+    .hero-br-tabletonly {
+        display: none;
+    }
+
+    .hero-br-desktoponly {
+        display: inline;
     }
 
     .hero-button-icon {
-        margin-left: 181px;
+        position: absolute;
+        left: 532px;
+        top: 320px;
+    }
+
+    .hero-star {
+        top: 14px;
+        left: 1065px;
     }
 
     .hero-ukraine {
-        align-items: flex-end;
-        justify-content: flex-end;
-        width: 142.159px;
-        height: 156.719px;
-        flex-shrink: 0;
-    }  
+        left: 1041px;
+        top: 447px;
+    }   
 }
 
 /* ==========DESKTOP 1440========== */
@@ -183,10 +205,26 @@
     }
 
     .hero-container {
-        padding-top: 117px;
     }
 
     .hero-title {
         max-width: 632px;
+        font-size: 64px;
+        line-height: 1.16;
+        top: 66px;
+    }
+
+    .hero-button-icon {
+        top: 328px;
+    }
+
+    .hero-star {
+        top: 66px;
+        left: 1225px;
+    }
+    
+    .hero-ukraine {
+        left: 1201px;
+        top: 447px;
     }
 }
