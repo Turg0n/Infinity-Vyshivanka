@@ -7,12 +7,6 @@
   background-size: 375px 550px;
 }
 
-.order-background-container {
-}
-
-.order .container {
-}
-
 .order-form-wrapper {
   display: flex;
   flex-direction: column;
@@ -45,9 +39,6 @@
 .order-form {
   display: flex;
   flex-direction: column;
-}
-
-.order-label {
 }
 
 .order-input {

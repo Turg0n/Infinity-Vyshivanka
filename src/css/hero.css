@@ -105,7 +105,6 @@
 
     .hero-nomobile {
         display: block;
-
     }
 
     .hero-star {
@@ -175,7 +174,7 @@
 }
 
 /* ==========DESKTOP 1440========== */
-@media screen and (min-width: 1440px) {
+/* @media screen and (min-width: 1440px) {
 
     .hero-title {
         max-width: 632px;
@@ -201,4 +200,4 @@
     .ukraine {
         padding-top: 65px;
     }
-}
+} */
