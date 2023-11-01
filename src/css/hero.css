@@ -2,16 +2,21 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;   
+    align-items: center;
 }
 
 .hero-container {
     display: flex;
     flex-direction: column;
-    align-items: left;
-    margin-top: 60px;
+    align-items: center;
     max-width: 100%;
     flex-wrap: wrap;
+}
+
+.hero-all {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .hero-title {
@@ -23,21 +28,15 @@
     align-content: center;
     color: #FCF9F9;
     max-width: 335px;
+    margin-bottom: 20px;
 }
 
 .hero-title-span {
     color: #ECD979;
 }
 
-.hero-br-tabletonly,
-.hero-br-desktoponly {
-    display: none;
-}
-
 .hero-button-icon {
-    margin-left: 70px;
-    margin-top: 20px;
-    margin-bottom: 40px;
+    padding-left: 70px;
 }
 
 .hero-button {
@@ -51,24 +50,17 @@
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    border-width: 1px;
-    border-color: rgba(252, 249, 249, 0.1);
-    width: 154.52px;
-    height: 49px;
+    border: 1px solid rgba(252, 249, 249, 0.1);
     display: inline-flex;
     padding: 14px 36px;
     gap: 10px;
     flex-shrink: 0;
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-button:hover,
 .hero-button:focus {
-    border-color: rgba(236, 217, 121, 1);
-}
-
-.button-icon {
-    margin-left: 10px;
+    border: 1px solid rgba(236, 217, 121, 1);
 }
 
 .hero-girl {
@@ -81,59 +73,47 @@
 }
 
 /* ============TABLET ============= */
-
 @media screen and (min-width: 768px) {
-    .container {
-        max-width: 768px;
-    }
 
     .hero {
-        padding-top: 106px;
+        padding-top: 100px;
     }
 
     .hero-container {
         position: relative;
-    }
-
-    .hero-all {
-        gap: 40px;
-        display: flex;
-        flex-direction: column;
+        align-items: baseline;
     }
 
     .hero-title {
         max-width: 549px;
-    }
-
-    .hero-br-tabletonly {
-        display: inline;
+        font-size: 54px;
+        line-height: 1.17;
     }
 
     .hero-button-icon {
-        margin-left: 141px;
-        margin-top: 40px;
+        padding-left: 141px;
+
     }
-    
+
     .hero-button {
         width: 168px;
-        height: 50px;
         display: flex;
         padding: 14px 39px;
         gap: 10px;
     }
-    
+
     .hero-nomobile {
-        display: flex;
-        flex-direction: column;
+        display: block;
+
     }
 
     .hero-star {
         text-align: center;
         position: absolute;
         top: -26px;
-        left: 589px;
+        right: 32px;
     }
-    
+
     .hero-star-text {
         font-weight: 400;
         font-size: 16px;
@@ -144,22 +124,22 @@
         text-align: center;
         color: rgba(252, 249, 249, 0.4);
     }
-    
+
     .hero-ukraine {
         width: 139px;
-        height: 197px;
+        height: 191px;
         position: absolute;
-        left: 565px;
-        top: 823px;
+        bottom: -58px;
+        right: 23px;
+    }
+
+    .ukraine {
+        padding-top: 35px;
     }
 }
 
 /* ==========DESKTOP 1280========== */
-
 @media screen and (min-width: 1280px) {
-    .container {
-        max-width: 1280px;
-    }
 
     .hero {
         padding-top: 100px;
@@ -167,45 +147,34 @@
 
     .hero-title {
         max-width: 518px;
-        position: absolute;
-        left: 532px;
-        top: 94px;
+
     }
 
-    .hero-br-tabletonly {
-        display: none;
+    .hero-all {
+        flex-direction: row-reverse;
     }
 
-    .hero-br-desktoponly {
-        display: inline;
-    }
-
-    .hero-button-icon {
-        position: absolute;
-        left: 532px;
-        top: 320px;
+    .hero-wrap {
+        padding-top: 94px;
     }
 
     .hero-star {
         top: 14px;
-        left: 1065px;
+        right: 100px;
     }
 
     .hero-ukraine {
-        left: 1041px;
-        top: 447px;
-    }   
+        right: 97px;
+        bottom: -94px;
+    }
+
+    .ukraine {
+        padding-top: 0;
+    }
 }
 
 /* ==========DESKTOP 1440========== */
-
 @media screen and (min-width: 1440px) {
-    .container {
-        max-width: 1440px;
-    }
-
-    .hero-container {
-    }
 
     .hero-title {
         max-width: 632px;
@@ -220,11 +189,15 @@
 
     .hero-star {
         top: 66px;
-        left: 1225px;
+        right: 100px;
     }
-    
+
     .hero-ukraine {
-        left: 1201px;
-        top: 447px;
+        right: 100px;
+        bottom: -29px;
+    }
+
+    .ukraine {
+        padding-top: 65px;
     }
 }
