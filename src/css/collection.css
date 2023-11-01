@@ -74,7 +74,7 @@ font-family: Manrope;
         /* height: 177px; */
         /* padding-top: 18px; */
         padding-bottom: 80px;
-        background-image: url(/img/elements-mob.png);
+        background-image: url(../img/elements-mob.png);
         background-repeat: no-repeat;
         background-position: left 0 top 335px;
         background-size: 72px;
@@ -120,7 +120,7 @@ font-family: Manrope;
             width: 768px;
             /* height: 400px; */
             padding-bottom: 100px;
-            background-image: url(/img/element-tab.png);
+            background-image: url(../img/element-tab.png);
             background-repeat: no-repeat;
             /* background-size: cover right; */
             background-size: 114px;
@@ -170,7 +170,7 @@ font-family: Manrope;
         /* height: 300px; */
         /* position: absolute; */
         padding-bottom: 150px;
-        background-image: url(/img/elements.png);
+        background-image: url(../img/elements.png);
         background-size: 169px; 
         background-position: left 0 top 291px;
             
@@ -199,7 +199,7 @@ font-family: Manrope;
                 /* background-position: left; */
         
         
-                background-image: url(/img/elements.png);
+                background-image: url(../img/elements.png);
 
                 background-size: 150px;
                 /* background-position: left top 30%; */
@@ -228,7 +228,7 @@ font-family: Manrope;
 @media screen and (min-width: 1280px) {
     @media (min-resolution: 192dpi) {
         .fon {
-            background-image: url(/img/elements@2x.png);  
+            background-image: url(../img/elements@2x.png);  
         }
     }
 }
@@ -236,7 +236,7 @@ font-family: Manrope;
 @media screen and (min-width: 768px) {
     @media (min-resolution: 192dpi) {
         .fon {
-            background-image: url(/img/elements-tab@2x.png)
+            background-image: url(../img/elements-tab@2x.png)
         }
     }
 }
@@ -244,7 +244,7 @@ font-family: Manrope;
 @media screen and (min-width: 320px) {
     @media (min-resolution: 192dpi) {
         .fon {
-            background-image: url(/img/elements-mob@2x.png);
+            background-image: url(../img/elements-mob@2x.png);
         }
     }
 }
