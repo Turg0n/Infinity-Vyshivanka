@@ -94,11 +94,15 @@
 
 .mobile-menu-close {
   stroke: black;
-  display: initial;
+  width: 36px;
+  height: 36px;
 }
+
 
 .tablet-menu-close {
   stroke: black;
+}
+.modal-btn-icon-tabl {
   display: none;
 }
 
@@ -120,11 +124,11 @@
   visibility: hidden;
 
 }
-.is-open {
+/* .is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
-}
+} */
 
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
@@ -187,10 +191,13 @@
   }
 
   .mobile-menu-close {
+    width: 44px;
+    height: 44px;
+  }
+  .modal-btn-icon-mob {
     display: none;
   }
-
-  .tablet-menu-close {
+  .modal-btn-icon-tabl {
     display: initial;
   }
 
