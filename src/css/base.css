@@ -1,3 +1,4 @@
+
 .container {
     width: 100%;
     padding-right: 20px;
@@ -6,7 +7,7 @@
     margin-left: auto;
 }
 body {
-    font-family: 'Manrope', sans-serif;
+    font-family: 'Manrope-400', sans-serif;
     color: #FCF9F9;
     background-color: #1C2225;
 }
@@ -27,6 +28,10 @@ body {
     visibility: visible;
     pointer-events: auto;
 }
+h2 {
+    font-family: Manrope-500 , sans-serif;
+}
+
 @media screen and (min-width: 768px) {
     .container {
         padding-right: 32px;
@@ -39,4 +44,3 @@ body {
         padding-right: 100px;
     }
 }
-

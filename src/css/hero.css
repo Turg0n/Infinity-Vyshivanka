@@ -6,6 +6,7 @@
     padding-top: 60px;
     padding-bottom: 80px;
     width: 375px;
+    margin: 0 auto;
 }
 
 .hero-container {
@@ -46,7 +47,8 @@
     color: rgba(252, 249, 249, 1);
     background-color: transparent;
     font-size: 14px;
-    font-weight: 400;
+    font-family: Manrope-600;
+    font-weight: 600;
     line-height: 1.37;
     letter-spacing: 0.04em;
     cursor: pointer;

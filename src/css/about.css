@@ -3,7 +3,8 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    width: 375px;       
+    width: 375px;
+    margin: 0 auto;       
 }
 
 .about-ornament {

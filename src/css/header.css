@@ -84,7 +84,7 @@
 .mobile-header-div {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 186px;
+  margin-bottom: 186px;
   align-items: center;
 }
 
