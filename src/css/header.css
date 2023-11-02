@@ -1,5 +1,10 @@
 .header {
+  width: 375px;
   padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .header-container {
@@ -140,13 +145,15 @@
   padding: 12px 20px;
 } 
 
-@media screen and (min-width: 375px) {
-}
 
 @media screen and (min-width: 768px) {
+  .header {
+    width: 768px;
+    padding-right: 32px;
+    padding-left: 32px;
+  }
   .header-mobiletabletlateral-menu {
     width: 380px;
-
     background-size: 380px;
     background-position: center bottom;
   }
@@ -200,7 +207,11 @@
   .header-mobiletabletlateral-menu {
     display: none;
   }
-
+  .header {
+    width: 1280px;
+    padding-right: 100px;
+    padding-left: 100px;
+  }
 
   .header-container {
     font-size: 14px;

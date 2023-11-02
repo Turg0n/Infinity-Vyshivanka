@@ -1,7 +1,7 @@
 .section-collection {
     margin-right: auto;
     margin-left: auto;
-
+    width: 375px;
 }
 
 .name-section-collection {
@@ -95,6 +95,9 @@ font-family: Manrope;
 }
     /* tablet  */
  @media screen and (min-width: 768px) {
+    .section-collection {
+        width: 768px;
+    }
     .letters {
             display: none;
         }
@@ -169,7 +172,7 @@ font-family: Manrope;
 
 
 .section-collection {
-        max-width: 1440px;
+        width: 1280px;
     }
 }
 

@@ -3,7 +3,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    padding-top: 80px;        
+    width: 375px;       
 }
 
 .about-ornament {
@@ -84,7 +84,7 @@
             display: flex;
             flex-direction: column;
             align-items: flex-start;
-            padding-top: 100px;
+            width: 768px;
         }
 
         @media (min-device-pixel-ratio: 2),
@@ -129,7 +129,7 @@
 
 @media screen and (min-width: 1280px) {
     .section-about-us{
-        padding-top: 150px;
+        width: 1280px;
     }
     .about-container {
         max-width: 1280px;
@@ -162,7 +162,7 @@
         @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
-            .section-about-us {                
+            .about-ornament {                
                     background-image: url(../img/ornament-about-desktop@2x.png);
             }
         }
