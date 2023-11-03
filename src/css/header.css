@@ -71,6 +71,10 @@
   background: rgba(252, 249, 249, 0.1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.mob-soc-div:hover,
+.mob-soc-div:focus {
+  border: 1px solid #ECD979;
+}
 
 .header-button-style {
   padding: 0;
@@ -91,17 +95,27 @@
   text-align: right;
   margin-top: auto;
   margin-bottom: auto;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.header-mobile-menu:hover,
+.header-mobile-menu:focus {
+  border: 1px solid rgba(236, 217, 121, 1);
+}
 .mobile-menu-close {
   stroke: black;
   width: 36px;
   height: 36px;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.mobile-menu-close:hover,
+.mobile-menu-close:focus {
+  border: 1px solid #1c2225;
+  /* border-radius: 50%; */
+}
 
 .tablet-menu-close {
   stroke: black;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-btn-icon-tabl {
   display: none;
@@ -117,7 +131,7 @@
   width: 274px;
   height: 100vh;
   background-color: #ecd979;
-  padding: 20px 20px;
+  padding: 20px 20px 251px 20px;
   overflow: auto;
   background-image: url(../img/mobile-background-1x.png);
   background-repeat: no-repeat;
@@ -161,6 +175,7 @@
   }
   .header-mobiletabletlateral-menu {
     width: 380px;
+    padding: 20px 20px 365px 20px;
     background-size: 380px;
     background-position: center bottom;
   }
@@ -267,15 +282,7 @@
     border: 1px solid #ECD979;
   }
 
-  .mob-soc-div:hover {
-    border: 1px solid #ECD979;
-    background-color: transparent;
-  }
-
-  .mob-soc-div:focus {
-    border: 1px solid #ECD979;
-    background-color: transparent;
-  }
+  
 
   .header-address-link {
     font-size: 13px;
