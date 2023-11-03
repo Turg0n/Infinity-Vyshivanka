@@ -84,12 +84,13 @@
 .mobile-header-div {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 186px;
   align-items: center;
 }
 
 .header-mobile-menu {
   text-align: right;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .mobile-menu-close {
@@ -108,6 +109,8 @@
 
 .header-mobiletabletlateral-menu {
   position: fixed;
+  display: flex;
+  flex-direction: column;
   z-index: 10;
   top: 0;
   right: 0;
@@ -186,7 +189,6 @@
   }
 
   .mobile-header-div {
-    margin-bottom: 223px;
     align-items: center;
   }
 
