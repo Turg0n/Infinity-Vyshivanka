@@ -74,12 +74,14 @@
   justify-content: center;
   border-radius: 15px;
   border: 1px solid rgba(252, 249, 249, 0.1);
-  background: rgba(252, 249, 249, 0.1);
-  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: rgba(252, 249, 249, 0.1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1) , 
+  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mob-soc-div:hover,
 .mob-soc-div:focus {
   border: 1px solid #ECD979;
+  background-color:transparent;
 } 
 
 .header-button-style {
